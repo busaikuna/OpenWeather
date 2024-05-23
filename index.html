@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>Open Weather</title>
+</head>
+
+<body onload="load()">
+    <div class="main-content">
+        <div class="input-content">
+            <input onkeydown="enter(event)" class="input-city" placeholder="Digite o nome da cidade" id="city" type="text">
+            <button onclick="search()" class="input-button">
+                <img src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png" alt="">
+            </button>
+        </div>
+        <div class="response">
+            <p class="city-name">Procure pela sua cidade.</p>
+            <p class="temp"></p>
+            <div class="container-time">
+            </div>
+            <p class="umidade"></p>
+        </div>
+    </div>
+    <p style="text-align: center; position: absolute; margin-top: 300px;">&copy;Busaikuna</p>
+</body>
+
+</html>
