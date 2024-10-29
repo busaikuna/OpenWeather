@@ -1,5 +1,5 @@
 function load() {
-    window.document.body.style.backgroundImage = "url(https://source.unsplash.com/1600x900/?landscape)"
+    window.document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/73/db/c1/73dbc1990dc1243bc1c2e65358129cae.jpg)"
 }
 
 var key = "b0dbc0b933e04503bcc6268c5dd5d86f"
